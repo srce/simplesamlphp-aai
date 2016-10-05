@@ -2,7 +2,7 @@
     "name": "srce/simplesamlphp-aai",
     "description": "The official simpleSAMLphp-AAI package suited for authentication via the AAI@EduHr system.",
     "type": "project",
-    "keywords": [ "AAI","AAI@EduHr","saml2", "shibboleth","aselect","openid","oauth","ws-federation","sp","idp" ],
+    "keywords": [ "AAI","EduHr","saml2", "shibboleth","aselect","openid","oauth","ws-federation","sp","idp" ],
     "homepage": "http://www.aaiedu.hr/",
     "license": "LGPL-2.1",
     "authors": [
