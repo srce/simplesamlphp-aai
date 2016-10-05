@@ -1,25 +1,23 @@
 {
-    "name": "simplesamlphp/simplesamlphp",
-    "description": "A PHP implementation of SAML 2.0 service provider and identity provider functionality. And is also compatible with Shibboleth 1.3 and 2.0.",
+    "name": "srce/simplesamlphp-aai",
+    "description": "The official simpleSAMLphp-AAI package suited for authentication via the AAI@EduHr system.",
     "type": "project",
-    "keywords": [ "saml2", "shibboleth","aselect","openid","oauth","ws-federation","sp","idp" ],
-    "homepage": "http://simplesamlphp.org",
+    "keywords": [ "AAI","AAI@EduHr","saml2", "shibboleth","aselect","openid","oauth","ws-federation","sp","idp" ],
+    "homepage": "http://www.aaiedu.hr/",
     "license": "LGPL-2.1",
     "authors": [
         {
-            "name": "Andreas Åkre Solberg",
-            "email": "andreas.solberg@uninett.no"
-        },
-        {
-            "name": "Olav Morken",
-            "email": "olav.morken@uninett.no"
+            "name": "Srce AAI@EduHr",
+            "email": "aai@srce.hr"
         }
     ],
     "autoload": {
         "psr-0": {
             "SimpleSAML_": "lib/"
         },
-        "files": ["lib/_autoload_modules.php"]
+        "files": [
+			"lib/_autoload_modules.php"
+		]
     },
     "require": {
         "php": "~5.3",
@@ -28,7 +26,7 @@
         "openid/php-openid": "dev-master#ee669c6a9d4d95b58ecd9b6945627276807694fb as 2.2.2"
     },
     "support": {
-        "issues": "https://github.com/simplesamlphp/simplesamlphp/issues",
-        "source": "https://github.com/simplesamlphp/simplesamlphp"
+		"email": "aai@srce.hr",
+        "source": "http://www.aaiedu.hr/za-davatelje-usluga/za-web-aplikacije/kako-implementirati-autentikaciju-putem-sustava-aaieduhr-u-php"
     }
 }
