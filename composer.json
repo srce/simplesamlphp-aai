@@ -2,7 +2,7 @@
     "name": "srce/simplesamlphp-aai",
     "description": "The official simpleSAMLphp-AAI package suited for authentication via the AAI@EduHr system.",
     "type": "project",
-    "keywords": [ "AAI","EduHr","saml2", "shibboleth","aselect","openid","oauth","ws-federation","sp","idp" ],
+    "keywords": [ "AAI","EduHr","saml2","shibboleth","aselect","openid","oauth","ws-federation","sp","idp" ],
     "homepage": "http://www.aaiedu.hr/",
     "license": "LGPL-2.1",
     "authors": [
@@ -17,7 +17,10 @@
         },
         "files": [
 			"lib/_autoload_modules.php"
-		]
+		],
+		"psr-4": {
+			"Srce\\": "srce/"
+		}
     },
     "require": {
         "php": "~5.3",
@@ -28,5 +31,10 @@
     "support": {
 		"email": "aai@srce.hr",
         "source": "http://www.aaiedu.hr/za-davatelje-usluga/za-web-aplikacije/kako-implementirati-autentikaciju-putem-sustava-aaieduhr-u-php"
+    },
+	"scripts": {
+        "post-create-project-cmd": [
+            "Srce\\ComposerScript::postCreateProject"
+        ]
     }
 }
